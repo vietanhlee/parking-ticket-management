@@ -1,0 +1,15 @@
+# Ignore Jupyter notebooks
+test_ocr.ipynb
+
+# Ignore Python bytecode files
+__pycache__/
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+
+tempCodeRunnerFile.ipynb
+t.ipynb
+test.ipynb
