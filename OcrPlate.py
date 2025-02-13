@@ -92,7 +92,7 @@ và dict giải mã của label (labels_encoder), trả về kí tự hoàn ch�
             # Đọc kí tự từ line1 rồi ghép với line2 
             # label được mã hóa nằm ở cột cuối cùng của từng mảng 2D line1 và line2 (truy xuất bằng chỉ mục -1)
             out_ocr = ''.join([labels_encoder[item] for item in line1[:,-1]])
-            out_ocr += '-' + ''.join([labels_encoder[item] for item in line2[:,-1]])
+            out_ocr += ' - ' + ''.join([labels_encoder[item] for item in line2[:,-1]])
         else:
             # Chỉ cần sắp xếp theo trục x rồi ghép các label lại 
             data_center_labe = data_center_labe[data_center_labe[:, 0].argsort()]
