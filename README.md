@@ -1,7 +1,7 @@
-# Chương trình quản lý vé xe phục cho bãi gửi xe
+# Chương trình quản lý vé xe cho bãi gửi xe
 
 ## Cơ sở để đọc được biển số xe:
-> Đây là phần mềm được phát triển từ chương trình đọc biển số xe. Có thể tham khảo để hiểu hơn ở [đây](https://github.com/vietanhlee/license-plate-recognition)
+- Đây là phần mềm được phát triển từ chương trình đọc biển số xe. Có thể tham khảo để hiểu hơn ở [đây](https://github.com/vietanhlee/license-plate-recognition)
 - Dùng dataset về nhận diện biển số của các loại xe của Việt Nam sau đó train model nhận diện biển số. [Tải tại đây](https://drive.google.com/drive/folders/1Ofqqey7Yqcas_uQSeUc2E8aB1ZTe_S6K?usp=drive_link)
 
 - Dùng dataset về nhận diện các chữ cái xuất hiện ở biển xe sau đó train model nhận diện ra các chữ cái. [Tải tại đây](https://drive.google.com/drive/folders/1fOh2m80gi0309jYNByFMj2AL0098_w0Q?usp=drive_link)
@@ -14,26 +14,26 @@
 
 ## Demo code
 ### Trường hợp không nhận diện thể biển số hoặc không xuất hiện biển số
-Các thông số hiển thị không nhận diện được
+Các thông số hiển thị `không nhận diện được`
 
    ![](https://raw.githubusercontent.com/vietanhlee/parking-ticket-management/refs/heads/main/display_github/Screenshot%202025-02-13%20191322.png)
 
 ### Trường hợp xe chưa vào bãi
-Các thông số hiển thị xe không tồn tại tức ko có trong bãi
+Các thông số hiển thị `không tồn tại xe` tức xe ko có trong bãi
 
   ![](https://raw.githubusercontent.com/vietanhlee/parking-ticket-management/refs/heads/main/display_github/Screenshot%202025-02-13%20191310.png)
 
 **Sau khi nhấn `xác nhận vào`:** 
 
-Chương trình sẽ tạo một folder tên là biển số được đọc và lưu ảnh được chụp toàn cảnh khi xe vào kèm với tên là ngày và giờ xe vào
+Chương trình sẽ tạo một folder tên là biển số được đọc và lưu ảnh được chụp toàn cảnh khi xe vào kèm với tên là thời gian xe vào bãi
 
->Ví dụ: 36X1-4359/19-14-23 13-02-2025.jpg thì có nghĩa là xe 36X1-4359 vào bãi lúc 19h 14p 23s ngày 13 tháng 2 năm 2025
+>Ví dụ: 36X1-4359/19-14-23 13-02-2025.jpg thì có nghĩa là xe 36X1-4359 vào bãi lúc 19h 14p 23s ngày 13 tháng 02 năm 2025
 
-Khi đó xe đã được đặt trạng thái nằm trong bãi và một số thông tin kèm theo như giá vé và thời gian vào
+Khi đó xe đã được đặt trạng thái `đã trong bãi` và một số thông tin kèm theo như `giá vé` và `thời gian vào`
 
 ![](https://raw.githubusercontent.com/vietanhlee/parking-ticket-management/refs/heads/main/display_github/Screenshot%202025-02-13%20191431.png)
 ### Trường hợp xe đã vào bãi
-Hiển thị trạng thái nằm trong bãi và một số thông tin kèm theo như giá vé và thời gian vào
+Hiển thị trạng thái `đã trong bãi` và một số thông tin kèm theo như `giá vé` và `thời gian vào`
 
 ![](https://raw.githubusercontent.com/vietanhlee/parking-ticket-management/refs/heads/main/display_github/Screenshot%202025-02-13%20191333.png)
 
