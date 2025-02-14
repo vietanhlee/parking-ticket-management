@@ -49,7 +49,7 @@ Chương trình sẽ xóa dữ liệu về chiếc xe đó tức có nghĩa xóa
     ```bash
     pip install -r 'requirements.txt'
     ```
-- **B2**: tại file `main_ui.py` nhấn run để chạy demo theo video có sẵn hoặc nếu muốn nhận diện theo real time bằng camera chính thì có thể thay dòng:
+- **B2**: tại file `main.py` nhấn run để chạy demo theo video có sẵn hoặc nếu muốn nhận diện theo real time bằng camera chính thì có thể thay dòng:
     ```python
     cam = cv2.VideoCapture(r"test.MOV")
     ```
