@@ -76,8 +76,8 @@ và dict giải mã của label (labels_encoder), trả về kí tự hoàn ch�
         delta_y_max = np.max(data_center_labe[:, 1]) - np.min(data_center_labe[:, 1])
         
         out_ocr = None
-        # Nếu lớn hơn 20 thì là biển loại 2 dòng
-        if(delta_y_max > 20):
+        # Nếu lớn hơn 30 thì là biển loại 2 dòng
+        if(delta_y_max > 30):
             # Tính tọa độ y trung bình để phân loại dòng thứ nhất và dòng thứ 2
             y_mean = np.mean(data_center_labe[:, 1])
             
